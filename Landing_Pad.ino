@@ -51,6 +51,31 @@ void loop() {
   delay(250);                //Wait for 0.25 seconds
   digitalWrite(7, LOW);     //Turn blue LED off
   delay(500);                //Wait for 0.5 seconds to add effect to the process.
+  digitalWrite(12, HIGH);    //Turn pin 12 on
+  delay(100);                //Wait for 0.1 seconds
+  digitalWrite(12, LOW);     //Turn pin 12 off
+  digitalWrite(13, HIGH);    //Turn pin 13 on
+  delay(100);                //Wait for 0.1 seconds
+  digitalWrite(13, LOW);     //Turn pin 13 off
+  digitalWrite(12, HIGH);    //Turn pin 12 on
+  delay(100);                //Wait for 0.1 seconds
+  digitalWrite(12, LOW);     //Turn pin 12 off
+  digitalWrite(13, HIGH);    //Turn pin 13 on
+  delay(100);                //Wait for 0.1 seconds
+  digitalWrite(13, LOW);     //Turn pin 13 off
+  digitalWrite(12, HIGH);    //Turn pin 12 on
+  delay(100);                //Wait for 0.1 seconds
+  digitalWrite(12, LOW);     //Turn pin 12 off
+  digitalWrite(13, HIGH);    //Turn pin 13 on
+  delay(100);                //Wait for 0.1 seconds
+  digitalWrite(13, LOW);     //Turn pin 13 off
+  digitalWrite(12, HIGH);    //Turn pin 12 on
+  delay(100);                //Wait for 0.1 seconds
+  digitalWrite(12, LOW);     //Turn pin 12 off
+  digitalWrite(13, HIGH);    //Turn pin 13 on
+  delay(100);                //Wait for 0.1 seconds
+  digitalWrite(13, LOW);     //Turn pin 13 off
+  delay(750);                //Wait for 0.75 seconds, then restart the program.
 }
 
 
@@ -59,5 +84,6 @@ void loop() {
 
 //CHANGELOG
 
-//Jan 4th, 2021 - Made blinking times shorter, and added some extra blinking.
-//Jan 4th, 2021 - Added 2 additional LEDs to the landing pad, and improved blinking times even more
+//Jan 4th, 2022 - Made blinking times shorter, and added some extra blinking.
+//Jan 4th, 2022 - Added 2 additional LEDs to the landing pad, and improved blinking times even more.
+//Jan 5th, 2022 - Added police-style flashing to the main LEDs.
